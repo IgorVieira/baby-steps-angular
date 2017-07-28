@@ -1,10 +1,10 @@
-import { BabyStepsAngular2Page } from './app.po';
+import { AngularTourOfHeroesPage } from './app.po';
 
-describe('baby-steps-angular2 App', () => {
-  let page: BabyStepsAngular2Page;
+describe('angular-tour-of-heroes App', () => {
+  let page: AngularTourOfHeroesPage;
 
   beforeEach(() => {
-    page = new BabyStepsAngular2Page();
+    page = new AngularTourOfHeroesPage();
   });
 
   it('should display welcome message', () => {
